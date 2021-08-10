@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 50px auto;
+  width: 300px;
+  height: 400px;
+  background: transparent;
+  border: 0;
+  border-radius: 5px;
+}
+
+.container2 {
+  margin: auto;
+  position: absolute;
+  width: 350px;
+  height: 500px;
+  background-image: radial-gradient(
+    circle at 4.74% 62.13%,
+    #daffb7 0,
+    #dfffa7 7.14%,
+    #e4f996 14.29%,
+    #e8ef85 21.43%,
+    #ebe373 28.57%,
+    #eed561 35.71%,
+    #f0c64e 42.86%,
+    #f2b53c 50%,
+    #f4a32c 57.14%,
+    #f69221 64.29%,
+    #f8801d 71.43%,
+    #fb6d20 78.57%,
+    #fe5a27 85.71%,
+    #ff4431 92.86%,
+    #ff293d 100%
+  );
+  border: 0;
+  border-radius: 5px;
+}
+
+.line {
+  border-top: 1px solid black;
+  height: 2px;
+  padding: 0;
+  margin: 20px 30px 0 30px;
+}
+
+.img {
+  padding: 10px;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  margin: 10px auto;
+  border: 0;
+  border-radius: 100%;
+  background: #212f3d;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  position: absolute;
+  margin: 0px auto;
+}
+
+.text {
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Zen Dots", cursive;
+}
+
+.paragraph {
+  text-align: center;
+  font-size: 14px;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.images {
+  width: 40px;
+  height: 40px;
+  margin: -20px -20px;
+  border-radius: 100%;
+}
+
+.butt1 {
+  padding: 20px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border: 0;
+  margin: 20px 100px;
+  overflow: hidden;
+  border-radius: 100%;
+  position: relative;
+  outline: none;
+  text-decoration: none;
+  margin-right: 90px;
+  background: transparent;
+}
+
+.butt2 {
+  padding: 20px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border: 0;
+  margin: 20px -70px;
+  overflow: hidden;
+  border-radius: 100%;
+  position: relative;
+  outline: none;
+  text-decoration: none;
+  margin-right: 90px;
+  background: transparent;
+}
+
+.butt3 {
+  padding: 20px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border: 0;
+  margin: 20px -75px;
+  overflow: hidden;
+  border-radius: 100%;
+  position: relative;
+  outline: none;
+  text-decoration: none;
+  margin-right: 90px;
+  background: transparent;
+}
+
+.vert {
+  border-left: 15px solid #212f3d;
+  height: 500px;
+  padding: 0;
+  margin: 0px auto 0 auto;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.paragraph2 {
+  text-align: left;
+  font-size: 12px;
+  margin-left: 40px;
+  font-family: "Rubik", sans-serif;
+}
+
+span {
+  color: #1a28a7;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+}
+
+.hory {
+  border-top: 70px solid #212f3d;
+  height: 2px;
+  padding: 0;
+  margin: 50px 20px 0 190px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+ .hp2 {
+     color: #ffffff;
+     font-size: 13px;
+     position: absolute;
+     font-family: 'Cairo', sans-serif;
+     margin: -60px 20px;
+     text-align: left;
+ }
+
+ .hp2::before {
+     content: "";
+     position: absolute;
+     background: transparent;
+     margin: -10px 100px;
+     width: 10px;
+     height: 37px;
+     border-radius: 0px;
+     border-right: 17px solid #fb6d20;
+     border-bottom: 17px solid transparent;
+     border-top: 17px solid transparent;
+ }
+
+ .comp {
+     width: 30px;
+     height: 30px;
+     margin: 0px 55px;
+     border-radius: 5px;
+ }
+
+ @media (max-width: 768px) {
+     body {
+         background: #000;
+     }
+    .container {
+        margin: 50px 10px;
+        width: 200px;
+        height: 500px;
+        background: transparent;
+        border: 0;
+        border-radius: 5px;
+      }
+    .vert {
+        border-left: 15px solid #212f3d;
+        height: 504px;
+        padding: 0;
+        margin: -2px -5px;
+        position: absolute;
+        border-radius: 2px;
+      }
+      
+ }
